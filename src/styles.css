@@ -1,0 +1,46 @@
+:root {
+  --header-height: 10vh;
+  --color-dark: #264653;
+  --color-danger: #ed254e;
+  --color-light: #fffccc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-shadow: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  width: 100%;
+  height: var(--header-height);
+  background-color: var(--color-dark);
+}
+
+.header > nav {
+  padding: 1rem;
+}
+
+.link {
+  color: var(--color-light);
+}
+
+.interactive-div {
+  width: 20vmax;
+  height: 20vmax;
+  background-color: var(--color-danger);
+  border: 1px solid #000;
+}
